@@ -54,7 +54,8 @@ p.title {
 
 ul {
     background-color: #0277BD;
-    border: 1px solid #01579B;
+    border-top: 1px solid #01579B;
+    border-bottom: 1px solid #3190C9;
     cursor: pointer;
     display: inline-block;
     font: inherit;
