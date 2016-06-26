@@ -84,7 +84,7 @@ a {
 a:hover {
     color: #01579B;
     background-color: #ffc000;
-    box-shadow: inset 1px 3px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 a:active {
