@@ -55,8 +55,8 @@ p.title {
 ul {
     background-color: #0277BD;
     background-color: rgba(2, 119, 189,0.5);
-    border-top: 1px solid #01579B;
-    border-bottom: 1px solid #3190C9;
+    border-top: 1px solid rgba(1,87,155,.25);
+    border-bottom: 1px solid rgba(49,144,201,.5);
     cursor: pointer;
     display: inline-block;
     font: inherit;
