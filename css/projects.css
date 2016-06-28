@@ -54,6 +54,7 @@ p.title {
 
 ul {
     background-color: #0277BD;
+    background-color: rgba(2, 119, 189,0.5);
     border-top: 1px solid #01579B;
     border-bottom: 1px solid #3190C9;
     cursor: pointer;
@@ -82,8 +83,10 @@ a {
 }
 
 a:hover {
-    color: #01579B;
-    background-color: #ffc000;
+    color: rgb(255, 255, 255);
+    background-color: rgba(1,87,155,.7);
+    /*color: #01579B;*/
+    /*background-color: #ffc000;*/
     box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
