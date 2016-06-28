@@ -70,7 +70,7 @@ ul {
 ul li {
     display: inline-block;
     margin: 0;
-    border-right: 1px solid #01579B;
+    /*border-right: 1px solid #01579B;*/
     position: relative;
 }
 
