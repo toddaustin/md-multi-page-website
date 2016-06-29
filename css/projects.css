@@ -4,7 +4,7 @@ body {
     margin: 0em;
     color: #fff;
     padding: 0;
-    background: #fff url('../images/studio.jpg') no-repeat center center fixed;
+    background: #000 url('../images/studio.jpg') no-repeat center center fixed;
 }
 
 header {
