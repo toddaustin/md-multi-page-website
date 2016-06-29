@@ -1,19 +1,19 @@
 html,
 body {
+    background: #000 url('../images/studio.jpg') no-repeat center center fixed;
+    color: #fff;
     font: 16px arial, helvetica, sans serif;
     margin: 0em;
-    color: #fff;
     padding: 0;
-    background: #000 url('../images/studio.jpg') no-repeat center center fixed;
 }
 
 header {
+    /*background: rgba(41, 137, 208, .25);*/
+    /*border-bottom: 1px solid rgba(41, 137, 208, .25);*/
+    border-top: 4px solid rgba(0, 40, 59, .5);
     margin: 0 0 15px;
     padding: 10px 15px 15px;
     width: auto;
-    /*border-bottom: 1px solid rgba(41, 137, 208, .25);*/
-    /*background: rgba(41, 137, 208, .25);*/
-    border-top: 4px solid rgba(0, 40, 59, .5);
 }
 
 h1,
@@ -24,8 +24,8 @@ h3 {
 }
 
 h1 {
-    font-size: 3em;
     color: #ffc000;
+    font-size: 3em;
 }
 
 h2 {
@@ -40,11 +40,11 @@ h3 {
 
 p.title {
     font-size: 10em;
-    opacity: .25;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
     line-height: .8;
+    margin: 0;
+    opacity: .25;
+    padding: 0;
 }
 
 
@@ -53,44 +53,44 @@ p.title {
  ******************************************************************************/
 
 ul {
-    background-color: #0277BD;
+   /* background-color: #0277BD;*/
     background-color: rgba(2, 119, 189,0.5);
-    border-top: 1px solid rgb(1,87,155);
     border-bottom: 1px solid rgba(49,144,201,.25);
+    border-top: 1px solid rgb(1,87,155);
     cursor: pointer;
     display: inline-block;
     font: inherit;
-    width: 100%;
     margin: 0;
     padding: 0;
     position: relative;
     text-decoration: none;
+    width: 100%;
 }
 
 ul li {
+    /*border-right: 1px solid #01579B;*/
     display: inline-block;
     margin: 0;
-    /*border-right: 1px solid #01579B;*/
     position: relative;
 }
 
 a {
-    display: block;
-    position: relative;
     color: #fff;
-    text-decoration: none;
+    display: block;
     padding: 15px 30px;
+    position: relative;
+    text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgba(1,87,155,.7);
-    /*color: #01579B;*/
     /*background-color: #ffc000;*/
+    /*color: #01579B;*/
+    background-color: rgba(1,87,155,.7);
     box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
 }
 
 a:active {
-    position: relative;
     color: #fff;
+    position: relative;
 }
